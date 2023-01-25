@@ -22,7 +22,7 @@ export default {
     const words = ref();
 
     onMounted(async ()=> {
-      const response = await fetch('http://localhost/api/glossary');
+      const response = await fetch('/api/glossary');
       words.value = await response.json();
     });
 

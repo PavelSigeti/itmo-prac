@@ -68,7 +68,7 @@ export default {
       myDiagram.model = new go.GraphLinksModel(node, link);
     }
     onMounted(async ()=> {
-      const response = await fetch('http://localhost/api/mindmap');
+      const response = await fetch('/api/mindmap');
       const {node, link} = await response.json();
       init(node, link);
     });
