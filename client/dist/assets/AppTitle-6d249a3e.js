@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,a as s,i as n}from"./index-9bb14d07.js";const c="/assets/sign-a1529afa.svg",i={name:"AppTitle"},r={class:"title-wrapper"},l={class:"title-container"},_=s("img",{src:c,alt:"sign",class:"sign-img"},null,-1);function p(t,d,m,f,g,u){return a(),o("div",r,[s("div",l,[s("h1",null,[n(t.$slots,"default")]),_])])}const $=e(i,[["render",p]]);export{$ as A};
