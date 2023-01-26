@@ -15,7 +15,6 @@ app.get('/api/mindmap', function(req, res) {
     res.json(mindMapData);
 });
 
-
 app.listen(9000, function(req, res) {
     console.log("Server is running at port 9000");
 });
